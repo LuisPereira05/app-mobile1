@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.uncovering_history.api.utils.Token",
+      "sourceType": "com.uncovering_history.api.utils.Token"
+    },
+    {
+      "name": "spring.data.mongodb",
+      "type": "com.uncovering_history.api.config.MongoConfig",
+      "sourceType": "com.uncovering_history.api.config.MongoConfig"
+    }
+  ],
+  "properties": [],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}

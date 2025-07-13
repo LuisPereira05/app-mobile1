@@ -1,0 +1,57 @@
+name: pracashistoriador
+description: A new Flutter project.
+
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core utilities
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # Local database
+  sqflite: ^2.3.2
+  isar: ^3.1.0
+  isar_flutter_libs: ^3.1.0
+
+  # Permissions & media
+  permission_handler: ^12.0.0+1
+  image_picker: ^1.1.2  # Highest version among both projects
+
+  # Location services
+  geolocator: ^14.0.1
+  geocoding: ^2.2.0
+
+  # Maps
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  google_maps_flutter: ^2.5.0
+
+  # Environment variables
+  flutter_dotenv: ^5.1.0
+
+  # State management
+  provider: ^6.1.1
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Keep the highest version
+
+  build_runner: ^2.4.9
+  isar_generator: ^3.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
