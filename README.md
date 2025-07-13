@@ -10,7 +10,7 @@
 
 1. Abrir com Visual Studio Code a pasta "historiador-app"
 2. Fazer Forward Port no VSCode do porto 8080 com visibilidade pública
-3. Copiar o endereço do devtunnels para o arquivo .env dentro do mesmo diretório
+3. Copiar o endereço do devtunnels para o arquivo .env dentro do mesmo diretório (**IMPORTANTE**: que o endereço não finalize com "/")
 4. Executar:
    ```
    flutter clean
