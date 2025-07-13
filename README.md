@@ -20,3 +20,7 @@
   (Isso vai tentar executar no dispositivo configurado, a app foi testada somente em um dispositivo Android via USB)
 
 Se tudo dar certo, a app devería estar rodando.
+
+Pode fazer login com:
+- Email: "admin@example.com"
+- Senha: "hashed_password"
